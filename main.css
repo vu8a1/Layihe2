@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+}
+
+.div1 {
+    width: 336px;
+    height: 236px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.div2 {
+    width: 336px;
+    height: 28px;
+    background-color: #FFDC40;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+h2 {
+    padding-left: 104px;
+    padding-top: 17px;
+    font-size: 27px
+}
+
+.div3 {
+    text-align: right;
+}
+
+.btn1 {
+    width: 25px;
+    height: 15px;
+    background: none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.low{
+    background-image: url("./images/Group\ 74.png");
+}
+
+.low:hover{
+    background-image: url("./images/Group\ 73.png");
+}
+
+.high {
+    background-image: url("./images/Group\ 90.png");
+}
+
+.high:hover {
+    background-image: url("./images/Group\ 91.png");
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.div4 {
+    padding-top: 4px;
+    padding-left: 15px;
+}
+
+.li {
+    position: relative;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.btn2 {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    background-image: url("./images/Group\ 77.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 24px;
+}
+
+.btn2:hover{
+    background-image: url("./images/Group\ 70.png");
+}
+
+.btn3 {
+    color: white;
+    padding-left: 10px;
+    width: 120px;
+    height: 42px;
+    background-color: #9953F1;
+    border-radius: 71px;
+    border-radius: 1px solid #C4C4C4;
+    border: none;
+    cursor: pointer;
+}
+.div5 {
+    position: relative;
+    width: 120px;
+    margin: 20px auto;
+}
+
+.div6 {
+    background-color: #AA68FE;
+    color: white;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
